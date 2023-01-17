@@ -16,11 +16,12 @@ import Transition from './Transistion/Transistion';
 import FlexBox from './Flexbox/Flexbox';
 import Square from './Square/Square';
 import Navi from "./NaviAssignment/Assignment";
+import AutoSuggest from './AutoSuggest/AutoSuggest';
 
 function App() {
   return (
     <div className="App">
-     <Observer />
+     <AutoSuggest />
     </div>
   );
 }

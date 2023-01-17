@@ -1,0 +1,42 @@
+
+.search-container {
+    width: 500px;
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 1rem;
+    border-radius: 5px;
+    flex-basis: 550px;
+    min-width: 300px;
+  }
+  
+  .suggestion-list {
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    border-top: 0;
+    width: 100%;
+    max-width: 550px;
+    min-width: 300px;
+  }
+  
+  .suggestion-item {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: darkgray;
+  }
+  
+  .selected {
+    background-color: darkgray;
+  }
+  
