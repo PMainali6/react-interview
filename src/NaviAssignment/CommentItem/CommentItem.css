@@ -1,0 +1,15 @@
+.comment-item {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .comment {
+    padding-right: 1rem;
+  }
+  
+  .btn-list {
+    display: flex;
+    gap: 1rem;
+  }
+  

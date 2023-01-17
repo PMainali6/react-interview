@@ -1,0 +1,38 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+/*
+    this is to create a scrollable space 
+*/
+.section {
+    height: 100vh;
+    width: 100%
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: rgb(32,26,41);
+    font-weight: 900;
+    width: 500px;
+    height: 250px;
+}
+
+.isVisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: rgb(32,26,41);
+    padding: 40px
+}
